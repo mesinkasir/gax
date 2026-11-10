@@ -68,7 +68,7 @@ func main() {
 		fmt.Printf("\n  %s%s%s\n", Bold, "Output:", Reset)
 		fmt.Printf("  %s  site/%s (%d pages)\n", Green+"●"+Reset, Dim, len(allPosts)+2)
 		fmt.Printf("  %s  sitemap.xml, rss.xml, feed.xml, robots.txt\n", Green+"●"+Reset)
-		fmt.Printf("\n  %s%s%s %s\n", Dim, "—", Reset, "gax.axcora.com | Fast, Slim, Hugo Killer")
+		fmt.Printf("\n  %s%s%s %s\n", Dim, "—", Reset, "gax.axcora.com | Fast, Slim, Go SSG")
 		fmt.Println("")
 
 	case "start", "dev", "serve":
